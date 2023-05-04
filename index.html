@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viwport" content="width=device-width">
+    <title> 🚀 Encriptador</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+  </head>
+
+  <body>
+
+     <header>
+
+        <h1>Encriptador</h1>
+
+     </header>
+
+     <main>
+       
+      <form>  
+        <div class="separador">
+        <textarea type="text" placeholder="Ingrese texto aqui" cols="60" rows="10" onkeyup="check()" id="entrada"></textarea>
+
+        <label>Solo letras minusculas y sin acentos</label>
+
+        <button class="encriptar" id="encriptar">Encriptar</button>
+
+        <button class="desencriptar" id="desencriptar">Desencriptar</button>
+        
+        </div>
+        <div class="segunda">
+            <p class="resultado" id="resultado"></p>
+            <img src="principales-problemas-de-ciberseguridad.png" id="imagen">
+            <p class="advertencia1" id="advertencia1">Ningun mensaje fue encontrado</p>
+            <p class="advertencia2" id="advertencia2">Ingresa el texto que deses emcriptar o desencriptar</p>
+            <button id="copiar">Copiar</button>
+        </div>
+
+      </form>
+
+     </main>
+
+     <footer>
+        <p class="info">Informacion del desarrollador de este proyecto: Aldo R</p>
+        <p class="git">Link a <a href="https://github.com/LukeAldoCraft" target="_blank" rel="noopener noreferrer">GitHub</a> para ver mas proyectos</p>
+        <p class="linked">Link a perfil de <a href="https://www.linkedin.com/in/aldo-ruiz-juarez-b2421a220/" target="_blank" rel="noopener noreferrer">Linkedin</a> para contacto</p>
+     </footer>
+   
+     <script src="script.js"></script>
+  </body>
+
+</html>
