@@ -145,7 +145,7 @@ form label:before {
 
 .segunda img {
     
-    height: 60%;
+    height: 50%;
     
 }
 
@@ -265,6 +265,12 @@ footer {
         display: block;
     }
 
+    .segunda img{
+ 
+        width: 50%;
+
+    }
+
 }
 
 
@@ -275,17 +281,18 @@ footer {
     }
    
     .segunda {
-     float: left;
-     margin: 10% 0 0 5%;
+     /* float: left; */
+     margin: 10% 5% 0 5%;
      padding: 20px 15px;
      height: 50%;
      width: 70%;
-
+     
     }
     
     .segunda img{
 
-        display: none;
+         display: none; 
+        
     }
     
     .segunda button {
